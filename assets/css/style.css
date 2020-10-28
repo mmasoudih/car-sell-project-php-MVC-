@@ -1,0 +1,70 @@
+* {
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family: shabnam;
+}
+
+.cp-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.cp-header .cp-nav {
+  width: 100%;
+  background-color: #060930;
+}
+
+.cp-header .cp-nav ul {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.cp-header .cp-nav ul li {
+  list-style: none;
+  margin: 5px;
+}
+
+.cp-header .cp-nav ul li a {
+  display: block;
+  padding: 15px;
+  color: #f1f6f9;
+}
+
+.cp-header .cp-header-slider {
+  height: 70vh;
+  background: url("../img/app_img/revslide5_bg.jpg") no-repeat center center fixed;
+}
+
+.cp-header .cp-dialog-header {
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+  width: 90%;
+  margin: 0 auto;
+  background: #aa3a3a;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.cp-header .cp-dialog-header ::before {
+  content: '';
+  -webkit-transform: skewY(1.5deg);
+          transform: skewY(1.5deg);
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+  position: absolute;
+  z-index: 1;
+}
