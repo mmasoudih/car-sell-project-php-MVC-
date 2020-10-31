@@ -6,10 +6,32 @@
           box-sizing: border-box;
   text-decoration: none;
   outline: none;
-  font-family: shabnam;
+  font-family: 'shabnam FD';
+}
+
+.cp-btn {
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.cp-btn-white {
+  border: 2px solid white;
+  color: black;
+  background: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .cp-container {
+  width: 100%;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -48,23 +70,115 @@
 }
 
 .cp-header .cp-dialog-header {
-  -webkit-transform: translateY(-100px);
-          transform: translateY(-100px);
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
   width: 90%;
   margin: 0 auto;
-  background: #aa3a3a;
-  height: 200px;
+  padding: 20px;
+  background: #3797a4;
+  height: 150px;
   border-radius: 10px;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .cp-header .cp-dialog-header ::before {
-  content: '';
-  -webkit-transform: skewY(1.5deg);
-          transform: skewY(1.5deg);
+  content: "";
+  -webkit-transform: skewY(2deg) translateY(-20px);
+          transform: skewY(2deg) translateY(-20px);
   width: 100%;
-  height: 100%;
-  background-color: aqua;
+  height: 120px;
+  background-color: #3797a4;
   position: absolute;
-  z-index: 1;
+  z-index: -1;
+  border-radius: 10px;
+  right: 0;
+  top: 0;
+}
+
+.cp-header .cp-dialog-header p:first-child {
+  font-size: 1.75vw;
+  margin: 10px;
+  color: white;
+}
+
+.cp-header .cp-dialog-header p {
+  font-size: 1.2vw;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.cp-header .cp-dialog-header .cp-btn-holder-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cp-d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cp-section-index-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cp-section-index-page .cp-article-terms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.cp-section-index-page .cp-article-terms section:first-child {
+  width: 400px;
+  height: 500px;
+  background: url("../img/app_img/car_img_2_mirror_left_section2.jpg");
+}
+
+.cp-section-index-page .cp-article-terms section:last-child {
+  width: 50%;
+}
+
+.cp-row {
+  width: 90%;
+}
+
+.cp-introduction {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cp-introduction h1 {
+  color: gray;
+  font-size: 2.75vw;
+  margin: 10px;
+}
+
+.cp-introduction p {
+  font-size: 1.3vw;
+  margin: 10px;
+  color: black;
 }
