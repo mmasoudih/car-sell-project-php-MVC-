@@ -1,9 +1,8 @@
 <?php
 
+use App\controller\HomePageController;
 use App\Kernel\Route;
-use App\Kernel\View;
 
-Route::get('/', function () {
-    View::Create('index');
-});
+Route::get('/', [HomePageController::class, 'indexPage']);
+Route::get('/user/{id}', [HomePageController::class, 'user']);
 
