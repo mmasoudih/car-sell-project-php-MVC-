@@ -82,16 +82,17 @@
   flex-direction: column;
   & .cp-article-terms{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
   }
   & .cp-article-terms section:first-child{
     width: 400px;
     height: 500px;
-    background: url('../img/app_img/car_img_2_mirror_left_section2.jpg');
+    background: url("../img/app_img/car_img_2_mirror_left_section2.jpg") fixed;
   }
   & .cp-article-terms section:last-child{
-    width: 50%;
+    width: 60%;
+    margin: 0 4%;
   }
 }
 

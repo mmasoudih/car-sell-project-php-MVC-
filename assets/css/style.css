@@ -2,11 +2,10 @@
   direction: rtl;
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
   outline: none;
-  font-family: 'shabnam FD';
+  font-family: "shabnam FD";
 }
 
 .cp-btn {
@@ -40,38 +39,27 @@
   width: 100%;
   background-color: #060930;
 }
-
 .cp-header .cp-nav ul {
   width: 90%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
-
 .cp-header .cp-nav ul li {
   list-style: none;
   margin: 5px;
 }
-
 .cp-header .cp-nav ul li a {
   display: block;
   padding: 15px;
   color: #f1f6f9;
 }
-
 .cp-header .cp-header-slider {
   height: 70vh;
   background: url("../img/app_img/revslide5_bg.jpg") no-repeat center center fixed;
 }
-
 .cp-header .cp-dialog-header {
-  -webkit-transform: translateY(-50px);
-          transform: translateY(-50px);
+  transform: translateY(-50px);
   width: 90%;
   margin: 0 auto;
   padding: 20px;
@@ -79,21 +67,13 @@
   height: 150px;
   border-radius: 10px;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
 .cp-header .cp-dialog-header ::before {
   content: "";
-  -webkit-transform: skewY(2deg) translateY(-20px);
-          transform: skewY(2deg) translateY(-20px);
+  transform: skewY(2deg) translateY(-20px);
   width: 100%;
   height: 120px;
   background-color: #3797a4;
@@ -103,63 +83,42 @@
   right: 0;
   top: 0;
 }
-
 .cp-header .cp-dialog-header p:first-child {
   font-size: 1.75vw;
   margin: 10px;
   color: white;
 }
-
 .cp-header .cp-dialog-header p {
   font-size: 1.2vw;
   color: rgba(255, 255, 255, 0.3);
 }
-
 .cp-header .cp-dialog-header .cp-btn-holder-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .cp-d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .cp-section-index-page {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
 }
-
 .cp-section-index-page .cp-article-terms {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-between;
 }
-
 .cp-section-index-page .cp-article-terms section:first-child {
   width: 400px;
   height: 500px;
-  background: url("../img/app_img/car_img_2_mirror_left_section2.jpg");
+  background: url("../img/app_img/car_img_2_mirror_left_section2.jpg") fixed;
 }
-
 .cp-section-index-page .cp-article-terms section:last-child {
-  width: 50%;
+  width: 60%;
+  margin: 0 4%;
 }
 
 .cp-row {
@@ -170,15 +129,15 @@
   text-align: center;
   margin-bottom: 20px;
 }
-
 .cp-introduction h1 {
   color: gray;
   font-size: 2.75vw;
   margin: 10px;
 }
-
 .cp-introduction p {
   font-size: 1.3vw;
   margin: 10px;
   color: black;
 }
+
+/*# sourceMappingURL=style.css.map */
